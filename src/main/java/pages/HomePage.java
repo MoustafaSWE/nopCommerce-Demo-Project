@@ -18,9 +18,12 @@ public class HomePage {
     private By wishListButton = By.className("ico-wishlist");
     private By shoppingCartButton = By.className("ico-cart");
     private By searchField = By.id("small-searchterms");
-    private By searchButton = By.className("button-1 search-box-button");
+    private By searchButton = By.xpath("//*[@class='button-1 search-box-button']");
 
 
     //actions
-
+    public void userNavigateToRegisterPage (){
+        new ElementActions()
+                .click(registerButton);
+    }
 }
