@@ -1,0 +1,10 @@
+{
+  "gender": "Male",
+  "firstName": "Moustafa",
+  "lastName": "Mohamed",
+  "day": "1",
+  "month": "October",
+  "year": "1993",
+  "mail": "test@test.com",
+  "password": "12345678"
+}
